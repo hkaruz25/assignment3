@@ -558,10 +558,6 @@ html {
   --tw-contain-style:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .right-72 {
   right: 18rem;
 }
@@ -638,6 +634,10 @@ html {
 
 .max-w-6xl {
   max-width: 72rem;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
 }
 
 .grid-cols-1 {
@@ -832,12 +832,6 @@ html {
 
 .focus\:ring-offset-2:focus {
   --tw-ring-offset-width: 2px;
-}
-
-@media not all and (min-width: 1024px) {
-  .max-lg\:absolute {
-    position: absolute;
-  }
 }
 
 @media (min-width: 768px) {
