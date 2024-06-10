@@ -571,6 +571,10 @@ html {
   margin-right: auto;
 }
 
+.mb-\[48px\] {
+  margin-bottom: 48px;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -607,9 +611,8 @@ html {
   height: 2rem;
 }
 
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
+.h-full {
+  height: 100%;
 }
 
 .w-12 {
